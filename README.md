@@ -1,4 +1,4 @@
 # Android-Wear
 Some Android Wear hacks.
 
-Really Important Anndroid Wear projects to learn.
+Really Important Android Wear projects to learn.
