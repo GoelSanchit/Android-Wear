@@ -1,5 +1,5 @@
 # Android-Wear
-Some Android Wear hacks..
+Some Android Wear hacks.
 
 Really Important Android Wear projects to learn...
 
