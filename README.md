@@ -1,4 +1,4 @@
-# Android-Wear
+# Android-Wea
 Some Android Wear hacks..
 
 Really Important Android Wear projects to learn...
