@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/watch_view_stub"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424242"
+    android:padding="15dp"
+    app:rectLayout="@layout/rect_activity_circled_image_view"
+    app:roundLayout="@layout/round_activity_circled_image_view"
+    tools:context=".CircledImageViewActivity"
+    tools:deviceIds="wear">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="50dp"
+        android:orientation="vertical"
+        app:layout_box="all">
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:text="Restart"
+         android:id="@+id/textView1"
+         android:layout_gravity="center_horizontal"
+         android:textColor="@color/light_grey"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Are You Sure?"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/light_grey"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.wearable.view.CircledImageView
+                android:id="@+id/circledImageViewCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:src="@drawable/ic_action_remove"
+                app:circle_border_color="#94BCFF"
+                app:circle_border_width="10dp"
+                app:circle_color="#bdbdbd"
+                app:circle_radius="34dp"/>
+
+            <android.support.wearable.view.CircledImageView
+                android:id="@+id/circledImageViewOK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:src="@drawable/ic_action_accept"
+                app:circle_color="#00bfa5"
+                app:circle_radius="34dp"/>
+            </FrameLayout>
+        </LinearLayout>
+
+    </android.support.wearable.view.BoxInsetLayout>
