@@ -1,8 +1,8 @@
 # Android-Wear
-Some Android Wear hacks//
+Some Android Wear hacks
 
-Really Important Android Wear projects to learn..
+Really Important Android Wear projects to learn
 
-Android Wear CardFragment Project../
+Android Wear CardFragment Project
 
-Android Wear DelayConfirmationMessage Project..///
+Android Wear DelayConfirmationMessage Project.
