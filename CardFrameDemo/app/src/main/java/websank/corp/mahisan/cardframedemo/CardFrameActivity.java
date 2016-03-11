@@ -6,7 +6,6 @@ import android.support.wearable.view.WatchViewStub;
 import android.widget.TextView;
 
 public class CardFrameActivity extends Activity {
-
     private TextView mTextView;
 
     @Override
