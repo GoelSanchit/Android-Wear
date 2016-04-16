@@ -9,7 +9,6 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
 public class CircledImageViewActivity extends Activity {
 
     private int mValue=0;
