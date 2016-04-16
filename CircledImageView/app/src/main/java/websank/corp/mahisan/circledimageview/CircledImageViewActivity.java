@@ -10,7 +10,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class CircledImageViewActivity extends Activity {
-
     private int mValue=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
