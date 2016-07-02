@@ -4,4 +4,4 @@ Really Important Android Wear projects to learn
 
 Android Wear CardFragment Project.
 
-Android Wear DelayConfirmationMessage Project. 
+Android Wear DelayConfirmationMessage Project.
