@@ -8,7 +8,7 @@ android {
     defaultConfig {
         applicationId "websank.corp.mahisan.circledimageview"
         minSdkVersion 20
-        targetSdkVersion 22
+        targetSdkVersion 24
         versionCode 1
         versionName "1.0"
     }
