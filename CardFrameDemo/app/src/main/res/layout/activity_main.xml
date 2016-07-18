@@ -7,4 +7,4 @@
     app:rectLayout="@layout/rect_activity_card_frame"
     app:roundLayout="@layout/round_activity_card_frame" tools:context=".CardFrameActivity"
     tools:deviceIds="wear"></android.support.wearable.view.WatchViewStub>
-    
+
